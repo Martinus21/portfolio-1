@@ -1,0 +1,64 @@
+@keyframes rgb-shadows-navigasi {
+    0%      {box-shadow: 0px 5px 10px #02a8c5}
+    33.5%   {box-shadow: 0px 5px 10px red}
+    66.5%   {box-shadow: 0px 5px 10px green}
+    100%    {box-shadow: 0px 5px 10px #02a8c5}
+}
+@keyframes rgb-shadows-home {
+    0%      {box-shadow: 0px 0px 20px #02a8c5}
+    33.5%   {box-shadow: 0px 0px 20px red}
+    66.5%   {box-shadow: 0px 0px 20px green}
+    100%    {box-shadow: 0px 0px 20px #02a8c5}
+}
+@keyframes rgb-shadows-portfolio {
+    0%      {box-shadow: 0px 0px 30px #02a8c5}
+    33.5%   {box-shadow: 0px 0px 30px red}
+    66.5%   {box-shadow: 0px 0px 30px green}
+    100%    {box-shadow: 0px 0px 30px #02a8c5}
+}
+@keyframes rgb-shadows-btn-portfolio {
+    0%      {box-shadow: 0px 0px 30px #02a8c5}
+    33.5%   {box-shadow: 0px 0px 30px red}
+    66.5%   {box-shadow: 0px 0px 30px green}
+    100%    {box-shadow: 0px 0px 30px #02a8c5}
+}
+@keyframes rgb-shadows-btn-contact {
+    0%    {box-shadow: 0px 0px 30px #02a8c5}
+    33.5% {box-shadow: 0px 0px 30px red}
+    66.5% {box-shadow: 0px 0px 30px green}
+    100%  {box-shadow: 0px 0px 30px #02a8c5}
+}
+/* END RGB ANIMATION BOX SHADOWS */
+
+@keyframes rgb-animation-txt-h{
+    0%      {color: #02a8c5}
+    33.5%   {color: red}
+    66.5%   {color: green}
+    100%    {color: #02a8c5}
+}
+@keyframes rgb-shadows-txt-h {
+    0%      {text-shadow: 0px 0px 10px #02a8c5}
+    33.5%   {text-shadow: 0px 0px 10px red}
+    66.5%   {text-shadow: 0px 0px 10px green}
+    100%    {text-shadow: 0px 0px 10px #02a8c5}
+}
+@keyframes rgb-animation-a_hover{
+    0%      {color: #02a8c5}
+    33.5%   {color: red}
+    66.5%   {color: green}
+    100%    {color: #02a8c5}
+}
+/* END RGB ANIMATION TEXT */
+
+@keyframes rgb-animation-body{
+    0%      {background-image: url('../asset/background/Background_Home1.jpg')}
+    33.5%   {background-image: url('../asset/background/Background_Home2.jpg')}
+    66.5%   {background-image: url('../asset/background/Background_Home3.jpg')}
+    100%    {background-image: url('../asset/background/Background_Home1.jpg')}
+}
+
+@keyframes arrow-animation{
+    0%        { transform: translateY(-10px); }
+    50%       { transform: translateY(10px); }
+    100%      { transform: translateY(-10px); }
+}

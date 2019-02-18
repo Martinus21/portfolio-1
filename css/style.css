@@ -1,0 +1,409 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.navigasi {
+	width: 100%;
+	height: 70px;
+	background-image: url("../asset/background/Background_Nav1.jpg");
+	position: fixed;
+	background-repeat: repeat;
+	box-shadow: 0px 5px 10px #02a8c5;
+	-webkit-animation-name: rgb-shadows-navigasi; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: rgb-shadows-navigasi;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    z-index: 100;
+}
+.navigasi .nav-menu {
+	width: 80%;
+	height: 70px;
+	display: flex;
+	margin: auto;
+}
+
+.navigasi .nav-menu .nav-left {
+	width: 30%;
+	text-align: center;
+	display: flex;
+}
+.navigasi .nav-menu .nav-left a {
+	margin: auto 0;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	transition: transform 3s;
+}
+
+.navigasi .nav-menu .nav-right {
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+.navigasi .nav-menu .nav-right li {
+	margin: auto 10px;
+	transition: transform 1s;
+}
+.navigasi .nav-menu .nav-right li a {
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+	transition: transform 2s;
+}
+
+/* HOVER ANIMATION, BOX-SHADOW RGB*/
+.navigasi .nav-menu .nav-left a:hover {
+	transform: rotateY(370deg);
+	color: #02a8c5;
+	animation-name: rgb-animation-a_hover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.navigasi .nav-menu .nav-right li:nth-child(odd):hover {
+	transform: rotate(-10deg);
+}
+.navigasi .nav-menu .nav-right li:nth-child(even):hover {
+	transform: rotate(10deg);
+}
+.navigasi .nav-menu .nav-right a:hover {
+	color: #02a8c5;
+	animation-name: rgb-animation-a_hover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+/* END NAVIGASI STYLE */
+
+.home {
+	height: 100vh;
+	background-image: url('../asset/background/Background-home.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation-name: rgb-animation-body;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	position: relative;
+}
+.home .typed {
+	width: 80%;
+	position: relative;
+	top: 200px;
+	text-align: center;
+	box-shadow: 0px 0px 20px grey;
+	animation-name: rgb-shadows-home;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+	margin: auto;
+}
+.home .typed h1 {
+	font-size: 5vw;
+	font-family: 'Orbitron', sans-serif;
+	color: #f2f2f2;
+	animation-name: rgb-shadows-txt-h;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.home .typed #typed3 {
+	font-size: 2vw;
+	font-family: 'Orbitron', sans-serif;
+	color: #f2f2f2;
+	animation-name: rgb-shadows-txt-h;
+	animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.home .arrow {
+	position: absolute;
+	top: 90%;
+	left: 49%;
+	animation-name: arrow-animation;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+.home .arrow img {
+	transform: rotate(90deg);
+}
+/* END HOME STYLE */
+
+
+.about{
+	width: 100%;
+	background-image: url('../asset/background/Background-About.jpg');
+	background-size: cover;
+	background-size: 100% 100%;
+}
+.about .container-about {
+	width: 80%;
+	margin: 0 auto;
+}
+.about .container-about .about-up {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.about .container-about .about-up h1 {
+	padding-top: 40px;
+	font-family: 'Orbitron', sans-serif;
+	text-decoration: underline;
+	animation-name: rgb-animation-txt-h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.about .container-about .about-up p {
+	color: white;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.about .container-about .about-down {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	display: flex;
+}
+.about .container-about .about-down .my-story{
+	width: 55%;
+	text-align: center;
+}
+.about .container-about .about-down .my-quotes{
+	width: 45%;
+	text-align: center;
+}
+.about .container-about .about-down h2 {
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+}
+.about .container-about .about-down p {
+	color: white;
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+.about .container-about .skill .about-skill {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.about .container-about .skill .about-skill h2 {
+	padding-top: 40px;
+	color: white;
+	font-family: 'Orbitron', sans-serif;
+}
+.about .container-about .skill .about-skill p {
+	color: white;
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+.about .container-about .skill .persentasi-skill-top , .persentasi-skill-bottom {
+	text-align: center;
+}
+.about .container-about .skill .persentasi-skill-top img {
+	width: 100px;
+	margin: 30px 50px 10px;
+}
+.about .container-about .skill .persentasi-skill-bottom img {
+	width: 100px;
+	margin: 10px 50px 30px;
+}
+/* END ABOUT STYLE */
+
+
+.paralax-portfolio {
+	width: 100%;
+	height: 252px;
+	background:url("../asset/paralax/paralax-portfolio.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	display: flex;
+}
+.paralax-portfolio .cv, 
+.paralax-portfolio .certivicate {
+	width: 30%;
+	margin: 50px auto 0px;
+}
+.paralax-portfolio .cv h3,
+.paralax-portfolio .certivicate h3 {
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #1c1a1a;
+	animation-name: rgb-shadows-txt-h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.paralax-portfolio .cv p,
+.paralax-portfolio .certivicate p {
+	color: silver;
+	margin-bottom: 30px;
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 17px;
+}
+.paralax-portfolio .cv a,
+.paralax-portfolio .certivicate a {
+	padding: 10px 20px;
+	border-radius: 10px 10px 10px 10px;
+	background-color: #1c1a1a;
+	color: #fff;
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 20px;
+	animation-name: rgb-shadows-btn-portfolio;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.paralax-portfolio .cv a:hover,
+.paralax-portfolio .certivicate a:hover {
+  background: #333333;
+}
+/* END PARALAX-PORTFOLIO STYLE */
+
+.portfolio{
+	width: 100%;
+	background-image: linear();
+	background: #002E36; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(red, yellow, green);
+	background: -o-linear-gradient(red, yellow, green);
+	background: -moz-linear-gradient(red, yellow, green);
+	background: linear-gradient(black, #002E36, black);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.portfolio .container-portfolio {
+	width: 80%;
+	margin: 0 auto;
+}
+.portfolio .container-portfolio .about-portfolio {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.portfolio .container-portfolio .about-portfolio h1 {
+	padding-top: 40px;
+	font-family: 'Orbitron', sans-serif;
+	text-decoration: underline;
+	animation-name: rgb-animation-txt-h;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.portfolio .container-portfolio .about-portfolio p {
+	color: white;
+	margin-top: 15px;
+	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.portfolio .container-portfolio .content-portfolio {
+	width: 100%;
+	margin: 0 auto;
+}
+.portfolio .container-portfolio .content-portfolio ul {
+	text-align: center;
+}
+.portfolio .container-portfolio .content-portfolio ul li {
+	list-style: none;
+	display: inline-block;
+}
+.portfolio .container-portfolio .content-portfolio ul li img {
+	width: 250px;
+	height: 150px;
+	margin: 40px 20px 30px;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px #02a8c5;
+	animation-name: rgb-shadows-portfolio;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+/* END PORTFOLIO STYLE */
+
+.paralax-contact {
+	width: 100%;
+	height: 252px;
+	background:url("../asset/paralax/paralax-contact.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/* END PARALAX-CONTACT */
+
+.contact {
+	background-image: url(../asset/background/Background-About.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 0px 0px 40px black;
+}
+/* END CONTACT STYLE */
+
+.paralax-social-media {
+	height: 252px;
+	background:url("../asset/paralax/paralax-social-media.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+.paralax-social-media h2 {
+	padding-top: 50px;
+	font-family: 'Orbitron', sans-serif;
+	text-decoration: underline;
+	color: #007286;
+}
+.paralax-social-media .social-media-logo ul li h4 {
+	margin: 20px 0px 0px;
+	font-size: 19px;
+	font-family: 'Orbitron', sans-serif;
+	color: #007286;
+}
+.paralax-social-media ul {
+	display: inline-flex;
+	margin-top: 15px;
+}
+.paralax-social-media ul li {
+	list-style: none;
+	padding: 30px 80px;
+}
+/* END PARALAX-SOCIAL-MEDIA STYLE */
+
+footer {
+	width: 100%;
+	height: 200px;
+	background: #012D36; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#012D36, black); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#012D36, black); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#012D36, black); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#012D36, black); /* Standard syntax */
+    box-shadow: 0px 0px 30px black;
+}
+footer .container-footer {
+	padding-top: 65px;
+}
+footer .container-footer p {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: silver;
+	font-size: 16px;
+}
+footer .container-footer p i:hover {
+	color: red;
+}
+footer .container-footer a {
+	color: #02a8c5;
+	font-size: 16px;
+}
+footer .container-footer a:hover {
+	color: #02a8c5;
+	animation-name: rgb-animation-a_hover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
