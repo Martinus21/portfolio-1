@@ -1,7 +1,7 @@
 @media only screen and (max-device-width: 842px){
 	.navigasi {
 		width: 100%;
-		height: 90px;
+		height: auto;
 		background-image: url("../asset/background/Background_Nav1.jpg");
 		position: fixed;
 		background-repeat: repeat;
@@ -9,13 +9,10 @@
 	.icon {
 		position: absolute;
 		top: 50%;
-		left: 90%;
 		transform: translate(-50%,-50%);
-		width: 80px;
-		height: 80px;
 	}
 	.burger {
-		width: 50px;
+		width: 35px;
 		min-height: 6px;
 		position: absolute;
 		background: #fff;
@@ -57,11 +54,10 @@
 /* END HAMBURGER STYLE */
 	.navigasi .nav-menu .nav-left {
 		width: 100%;
-		height: 90px;
 		justify-content: center;
 	}
 	.navigasi .nav-menu .nav-left a {
-		font-size: 35px;
+		font-size: 1.5em;
 	}
 	.navigasi .nav-menu .nav-right {
 		width: 100%;
@@ -108,21 +104,34 @@
 		animation-name: rgb-shadows-home;
 	    animation-duration: 4s;
 	    animation-iteration-count: infinite;
-	    padding-bottom: 100px;
+		padding: 20px 0px 30px ;
+	}
+	.home .typed h1 {
+		margin-bottom: 20px;
+		font-size: 40px;
+	}
+	.home .typed #typed3 {
+		font-size: 20px;
+	}
+/* END HOME STYLE RESPONSIVE */
+
+	.about .container-about .my-story-quotes{
+		width: 98%;
+	}
+/* END ABOUT STYLE RESPONSIVE */
+
+	.portfolio .container-portfolio .portfolio-nav a {
+	    margin: 5px auto;
+	}
+/* END PORTFOLIO STYLE RESPONSIVE */
+
+	.contact1-pic img {
+	  display: none;
 	}
 
-
-  .container-contact1 {
-    padding: 90px 80px 88px 80px;
-  }
-
-  .contact1-pic img {
-    display: none;
-  }
-
-  .contact1-form {
-    width: 100%;
-  }
+	.contact1-form {
+	  width: 100%;
+	}
 /* END CONTACT STYLE RESPONSIVE */
 
 }
