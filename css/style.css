@@ -41,7 +41,7 @@
 }
 
 .navigasi .nav-menu .nav-right {
-	width: 80%;
+	width: 70%;
 	display: flex;
 	justify-content: flex-end;
 	list-style: none;
@@ -82,8 +82,9 @@
 /* END NAVIGASI STYLE */
 
 .home {
+	height: 100%;
 	height: 100vh;
-	background-image: url('../asset/background/Background_Home2.jpg');
+	background-image: url('../asset/background/Background_Home1.jpg');
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -155,8 +156,7 @@
 }
 .about .container-about .about-up p {
 	color: white;
-	margin-top: 15px;
-	margin-bottom: 40px;
+	margin-top: 20px;
 	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
 	font-size: 20px;
 	letter-spacing: 1px;
@@ -168,19 +168,18 @@
 	text-align: center;
 	display: flex;
 }
-.about .container-about .about-down .my-story{
-	width: 55%;
+.about .container-about .my-story-quotes{
+	width: 48%;
 	text-align: center;
+	margin: 1%;
+	float: left;
 }
-.about .container-about .about-down .my-quotes{
-	width: 45%;
-	text-align: center;
-}
-.about .container-about .about-down h2 {
+.about .container-about .my-story-quotes h2 {
+	padding-top: 40px;
 	color: white;
 	font-family: 'Orbitron', sans-serif;
 }
-.about .container-about .about-down p {
+.about .container-about .my-story-quotes p {
 	color: white;
 	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
 	font-size: 18px;
@@ -189,9 +188,9 @@
 }
 
 .about .container-about .skill .about-skill {
-	width: 60%;
 	margin: auto;
 	text-align: center;
+	display: inline-block;
 }
 .about .container-about .skill .about-skill h2 {
 	padding-top: 40px;
@@ -221,7 +220,7 @@
 
 .paralax-portfolio {
 	width: 100%;
-	height: 252px;
+	height: auto;
 	background:url("../asset/paralax/paralax-portfolio.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -231,7 +230,7 @@
 .paralax-portfolio .cv, 
 .paralax-portfolio .certivicate {
 	width: 30%;
-	margin: 50px auto 0px;
+	margin: 50px auto;
 }
 .paralax-portfolio .cv h3,
 .paralax-portfolio .certivicate h3 {
@@ -279,7 +278,7 @@
 	background-size: cover;
 }
 .portfolio .container-portfolio {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 }
 .portfolio .container-portfolio .about-portfolio {
@@ -301,6 +300,18 @@
 	font-family: 'ZCOOL QingKe HuangYou', sans-serif;
 	font-size: 20px;
 	letter-spacing: 1px;
+}
+.portfolio .container-portfolio .portfolio-nav {
+	margin: 30px auto 0px;
+	text-align: center;
+}
+.portfolio .container-portfolio .portfolio-nav a {
+	font-size: 20px;
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    margin: auto 15px;
+    padding: 10px 35px;
 }
 .portfolio .container-portfolio .content-portfolio {
 	width: 100%;
@@ -350,7 +361,7 @@
 	text-align: center;
 }
 .paralax-social-media h2 {
-	padding-top: 50px;
+	padding-top: 40px;
 	font-family: 'Orbitron', sans-serif;
 	text-decoration: underline;
 	color: #007286;
@@ -362,12 +373,13 @@
 	color: #007286;
 }
 .paralax-social-media ul {
+	width: 100%;
 	display: inline-flex;
-	margin-top: 15px;
+	margin-top: 35px;
 }
 .paralax-social-media ul li {
 	list-style: none;
-	padding: 30px 80px;
+	margin: auto;
 }
 /* END PARALAX-SOCIAL-MEDIA STYLE */
 
